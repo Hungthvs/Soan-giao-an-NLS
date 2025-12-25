@@ -199,7 +199,8 @@ if "GEMINI_API_KEY" in st.secrets:
     api_key = st.secrets["GEMINI_API_KEY"]
 else:
     with st.sidebar:
-        st.header("🔐 Cấu hình")
+        st.header("🔐 AIzaSyALw3LxREx0e7Hv9cDs8TEI6U2GZHEf6Bg
+")
         api_key = st.text_input("Nhập API Key:", type="password")
 
 if api_key:
