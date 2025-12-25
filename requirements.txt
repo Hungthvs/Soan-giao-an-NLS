@@ -1,6 +1,6 @@
 streamlit
+main
 google-generativeai
 Pillow
 pandas
 openpyxl
-app.py
